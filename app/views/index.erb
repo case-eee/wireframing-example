@@ -1,0 +1,7 @@
+<h1>Current Events</h1>
+
+<h1>All Events</h1>
+
+<% @events.each do |event| %>
+  <h3><%= event %>: <a href="/events/<%= event.id %>"><%= event.title %><%= event.location %></a></h3>
+<% end %>
