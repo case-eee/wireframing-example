@@ -1,0 +1,6 @@
+<h1>Events</h1>
+
+    <% @events.each do |event| %>
+      <h3><%= event.id %>: <a href="/models/<%= event.id %>"><%= event.title %></a></h3>
+      <h3><a href="/models/<%= event.id %>"><%= event.location %></a></h3>
+    <% end %>
