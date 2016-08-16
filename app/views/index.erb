@@ -1,0 +1,11 @@
+<body style="background-color:powderblue"></body>
+
+<center>
+  <head>
+    <h1>EVENTS</h1>
+  </head>
+</center>
+
+<% @events.each do |event| %>
+<h3><a href="/events/<%=event.id%>"><%= event.title %></a></h3>
+<% end %>
