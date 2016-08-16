@@ -1,0 +1,28 @@
+header {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  margin: 0 50px;
+}
+
+.event-summary {
+  width: 400px;
+  padding: 10px 0;
+  border-bottom: 1px solid black
+}
+
+.title {
+  font-weight: bold;
+} 
+
+.location {
+  padding: 0px 25px;
+  font-style: italic;
+}
+
+.host {
+  margin: 25px 0px;
+}
